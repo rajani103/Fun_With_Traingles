@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;400&family=Inconsolata:wght@300;400;500&display=swap");
+
+:root {
+  --primary-color: #bfdbfe;
+  --secondary-color: #4b5563;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+  background-color: var(--primary-color);
+  margin: 0px;
+}
+
+#navigation {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 2rem;
+  background-color: var(--secondary-color);
+}
+
+#navigation-heading {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding: 1rem;
+  color: white;
+}
+
+#heading-main {
+  text-align: center;
+}
+
+#container {
+  width: 60%;
+  margin: auto;
+}
+
+#formulae,
+#output1 {
+  text-align: center;
+  border: 1px solid var(--secondary-color);
+  padding: 0.3rem;
+  background-color: var(--secondary-color);
+  border-radius:1rem;
+  color: white;
+}
+
+#output {
+  text-align: center;
+  border: 1px solid var(--secondary-color);
+  padding: 0.3rem;
+}
+
+.input-label {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+
+#input-a,
+#input-b {
+  width: 100%;
+  height: 6vh;
+  margin-bottom: 2rem;
+  font-size: large;
+  font-family: "Inconsolata", monospace;
+  border: 0px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
