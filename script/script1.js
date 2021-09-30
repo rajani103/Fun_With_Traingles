@@ -19,9 +19,9 @@ function isTriangle() {
       parseInt(angleOne.value) ===
     180
   ) {
-    output.innerText = "Yup! the given angles form a triangle";
+    output.innerText = "The given angles form a triangle";
   } else {
-    output.innerText = "the given angles donot form a triangle";
+    output.innerText = "The given angles do not form a triangle";
   }
 }
 

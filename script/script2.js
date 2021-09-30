@@ -2,7 +2,7 @@ var formRef = document.querySelector("#form");
 var btnRef = document.querySelector("#btn-submit");
 var output = document.querySelector("#output");
 
-const correctAnswers = ["90°", "right angled"];
+const correctAnswers = ["90°", "right angle"];
 
 function calculateScore() {
   var score = 0;
